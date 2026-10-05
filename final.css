@@ -1,0 +1,262 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #031124;
+    font-family:'Segoe UI', Arial, sans-serif ;
+    margin: 0;
+
+
+}
+
+
+h3{
+    color: rgb(5, 38, 77);
+}
+
+h4{
+    color: rgb(5, 43, 88);
+
+}
+
+
+.middle-text{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 40px 3%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.biodiversity{
+    border-radius: 20px;
+    gap: 30px;
+    padding: 40px 3%;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.card{
+    flex: 1;
+    background-color:rgb(14, 70, 109);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.bottom-text h2{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.navbar{  
+      background: rgba(1, 24, 41, 0.85);
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin: 0;
+    list-style: none;
+
+}
+
+.navlinks a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family:'Segoe UI', Arial, sans-serif ;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    gap: 40px;
+    padding: 30px 40px;
+}
+
+.navbar a:hover{
+    color: rgb(218, 215, 215);
+
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 3rem;
+    line-height: 1.05;
+    margin: 0;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(5, 38, 77);
+
+}
+    
+
+
+#blue-text{
+    color: rgb(158, 216, 255);
+}
+
+button{
+    background-color: rgb(163, 212, 245);
+    color: rgb(1, 36, 59);
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: rgb(163, 212, 245);
+}
+
+button:hover{
+    background-color: rgb(130, 183, 218);
+    border-color: rgb(130, 183, 218);
+    transform: translateY(-3px);
+
+}
+
+.more{
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 125, 180);
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: rgb(42, 125, 180);
+}
+
+.more:hover{
+    background-color: rgb(238, 237, 237);
+    transform: translateY(-3px);
+
+}
+
+.arrow{
+    background-color: rgb(163, 212, 245);
+    color: rgb(1, 36, 59);
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: rgb(163, 212, 245);
+}
+
+.arrow:hover{
+    background-color: rgb(142, 195, 231);
+    border-color: rgb(142, 195, 231);    flex: 0 0 30%;
+
+    transform: translateY(-3px);
+
+}
+
+.title{
+    padding: 80px 6%;
+    max-width: 700px;
+}
+
+#middle{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 480px;
+    margin: 25px 0 30px;
+    color: rgb(5, 38, 77);
+
+}
+
+
+
+p{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 480px;
+    margin: 25px 0 30px;
+}
+
+.first-text{
+    flex: 0 0 28%;
+}
+
+.grid{
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 0;        
+}
+
+.sea{
+    flex:0 0 28%;
+    background-color:rgb(227, 241, 251);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.sea img{ 
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 12px;
+}
+
+.box{
+    flex: 1;
+    text-align: center;
+}
+
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img2{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.bottom-text{
+    flex: 0 0 30%;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    min-width: 0;
+}
+
+.card h3, .card h4{
+    color: whitesmoke;
+}
+
+.card h3{
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+.card h4{
+    font-weight: normal;
+    margin: 0;
+}
+
+.bottom-text h4{
+    color: whitesmoke;
+    font-weight: normal;
+    line-height: 1.5;
+}
